@@ -9,7 +9,7 @@ const Navbar = () => {
         </a>
         <ul className="flex">
           <li>
-            <a href="">Home</a>
+            <a href="">Home</a> 
           </li>
           <li>
             About <a href="">About Us</a>
