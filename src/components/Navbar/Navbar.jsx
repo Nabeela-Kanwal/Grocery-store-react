@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <header>
-      <nav className="flex">
+      <nav className="max-w-[1400px] mx-auto h-[14vh] flex justify-between">
         <a href="">
           Gr<span>O</span>cery
         </a>
