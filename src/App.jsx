@@ -1,7 +1,10 @@
 import React from "react";
+import Home from "./components/Home/Home";
 
 const App = () => {
-  return <div className="bg-red-300 text-5xl">Nabeela Kanwal</div>;
+  return <div>
+    <Home />
+  </div>;
 };
 
 export default App;
