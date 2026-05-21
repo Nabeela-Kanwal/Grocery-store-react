@@ -41,16 +41,16 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="flex items-center gap-x-5">
-          <div className="flex p-1 border-2 border-orange-500 rounded-full">
+          <div className="flex items-center p-1 border-2 border-orange-500 rounded-full">
             <input
               type="text"
               name="text"
               id="text"
               placeholder="Search..."
-              className="flex-1 h-[5vh] px-3 focus:outline-none"
+              className="flex-1 h-10 px-3 focus:outline-none"
             />
-            <button className="bg-orange-600 text-white w-10 h-10 flex justify-center items-center rounded-full text-xl">
-              <IoSearchSharp />
+            <button className="bg-orange-600 text-white w-10 h-10 p-0 flex justify-center items-center rounded-full text-xl leading-none">
+              <IoSearchSharp className="block" />
             </button>
           </div>
           <a href="#" className="text-zinc-800 text-2xl">
