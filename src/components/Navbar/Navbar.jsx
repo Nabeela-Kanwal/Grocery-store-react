@@ -48,7 +48,7 @@ const Navbar = () => {
             </button>
           </div>
           <a href="#" className="text-zinc-800 text-2xl">
-            <GoHeartFill />
+            <GoHeartFill /> 
           </a>
           <a href="#" className="text-zinc-800 text-2xl">
             <HiMiniShoppingBag />
