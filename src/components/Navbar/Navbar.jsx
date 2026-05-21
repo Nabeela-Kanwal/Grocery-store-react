@@ -1,4 +1,6 @@
 import React from "react";
+import { GoHeartFill } from "react-icons/go";
+import { HiMiniShoppingBag } from "react-icons/hi2";
 
 const Navbar = () => {
   return (
@@ -9,18 +11,43 @@ const Navbar = () => {
         </a>
         <ul className="flex items-center gap-x-15">
           <li>
-            <a href="" className="font-semibold tracking-wider text-orange-500">Home</a> 
+            <a href="" className="font-semibold tracking-wider text-orange-500">
+              Home
+            </a>
           </li>
           <li>
-             <a href="" className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500">About Us</a>
+            <a
+              href=""
+              className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
+            >
+              About Us
+            </a>
           </li>
           <li>
-             <a href="" className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500">Process</a>
+            <a
+              href=""
+              className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
+            >
+              Process
+            </a>
           </li>
           <li>
-            <a href="" className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500">Contact Us</a>
+            <a
+              href=""
+              className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
+            >
+              Contact Us
+            </a>
           </li>
         </ul>
+        <div className="flex items-center gap-x-5">
+          <a href="#" className="text-zinc-800 text-2xl">
+            <GoHeartFill />
+          </a>
+          <a href="#" className="text-zinc-800 text-2xl">
+            <HiMiniShoppingBag />
+          </a>
+        </div>
       </nav>
     </header>
   );
