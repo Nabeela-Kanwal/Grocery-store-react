@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <header>
-      <nav className="max-w-[1400px] mx-auto h-[14vh] flex justify-between item-center bg-red-300">
+    <header className="bg-red-300">
+      <nav className="max-w-[1400px] mx-auto px-10 h-[14vh] flex justify-between items-center">
         <a href="">
           Gr<span>O</span>cery
         </a>
@@ -12,13 +12,13 @@ const Navbar = () => {
             <a href="">Home</a> 
           </li>
           <li>
-            About <a href="">About Us</a>
+             <a href="">About Us</a>
           </li>
           <li>
-            Process <a href="">Process</a>
+             <a href="">Process</a>
           </li>
           <li>
-            Contact <a href="">Contact Us</a>
+            <a href="">Contact Us</a>
           </li>
         </ul>
       </nav>
