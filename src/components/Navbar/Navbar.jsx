@@ -1,7 +1,7 @@
 import React from "react";
 import { GoHeartFill } from "react-icons/go";
 import { HiMiniShoppingBag } from "react-icons/hi2";
-
+import { IoSearchSharp } from "react-icons/io5";
 const Navbar = () => {
   return (
     <header className="bg-white">
@@ -41,6 +41,12 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="flex items-center gap-x-5">
+          <div className="flex p-1 border-2 border-orange-500 rounded-full">
+            <input type="text" name="text" id="text" placeholder="Search..."className="flex-1 h-[5vh] px-3 focus:outline-none"/>
+            <button className="bg-orange-500 text-white w-10 h-10 flex justify-center items-center rounded-full text-xl">
+              <IoSearchSharp />
+            </button>
+          </div>
           <a href="#" className="text-zinc-800 text-2xl">
             <GoHeartFill />
           </a>
