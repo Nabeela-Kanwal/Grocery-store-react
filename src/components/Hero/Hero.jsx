@@ -1,5 +1,6 @@
 import React from "react";
 import Grocery from "../../assets/grocery.png";
+import Button from "../Button/Button";
 
 const Hero = () => {
   return (
@@ -16,6 +17,7 @@ const Hero = () => {
           <p className="text-zinc-600 text-lg">
             Bred for a high content of beneficial substances. Our products are all fresh and healthy.
           </p>
+          <Button />
         </div>
         <div>
           <img src={Grocery} alt="" />
