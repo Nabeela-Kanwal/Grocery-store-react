@@ -13,6 +13,9 @@ const Hero = () => {
             Tasty Organic <span className="text-orange-500">Fruits</span> &{" "}
             <span className="text-orange-500">Veggies</span> In Your City
           </h1>
+          <p className="text-zinc-600 text-lg">
+            Bred for a high content of beneficial substances. Our products are all fresh and healthy.
+          </p>
         </div>
         <div>
           <img src={Grocery} alt="" />
