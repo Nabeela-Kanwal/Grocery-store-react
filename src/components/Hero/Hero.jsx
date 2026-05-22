@@ -1,4 +1,3 @@
-import React from "react";
 import Grocery from "../../assets/grocery.png";
 import Button from "../Button/Button";
 
@@ -15,7 +14,8 @@ const Hero = () => {
             <span className="text-orange-500">Veggies</span> In Your City
           </h1>
           <p className="text-zinc-600 text-lg">
-            Bred for a high content of beneficial substances. Our products are all fresh and healthy.
+            Bred for a high content of beneficial substances. Our products are
+            all fresh and healthy.
           </p>
           <Button />
         </div>

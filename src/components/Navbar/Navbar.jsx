@@ -1,7 +1,7 @@
-import React from "react";
 import { GoHeartFill } from "react-icons/go";
 import { HiMiniShoppingBag } from "react-icons/hi2";
 import { IoSearchSharp } from "react-icons/io5";
+
 const Navbar = () => {
   return (
     <header className="bg-white">
@@ -17,28 +17,42 @@ const Navbar = () => {
           </li>
 
           <li>
-            <a href="" className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"  >
+            <a
+              href=""
+              className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
+            >
               About Us
             </a>
           </li>
 
           <li>
             <a
-              href=""className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500">
+              href=""
+              className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
+            >
               Process
             </a>
           </li>
 
           <li>
-           <a href=""  className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500" >
+            <a
+              href=""
+              className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
+            >
               Contact Us
             </a>
           </li>
         </ul>
         <div className="flex items-center gap-x-5">
           <div className="flex items-center p-1 border-2 border-orange-500 rounded-full">
-            <input type="text" name="text" id="text"  placeholder="Search..." className="flex-1 h-10 px-3 focus:outline-none"/>
-          
+            <input
+              type="text"
+              name="text"
+              id="text"
+              placeholder="Search..."
+              className="flex-1 h-10 px-3 focus:outline-none"
+            />
+
             <button className="bg-orange-600 text-white w-10 h-10 p-0 flex justify-center items-center rounded-full text-xl leading-none">
               <IoSearchSharp className="block" />
             </button>
@@ -47,7 +61,7 @@ const Navbar = () => {
           <a href="#" className="text-zinc-800 text-2xl">
             <GoHeartFill />
           </a>
-          
+
           <a href="#" className="text-zinc-800 text-2xl">
             <HiMiniShoppingBag />
           </a>
