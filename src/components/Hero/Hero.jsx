@@ -17,7 +17,7 @@ const Hero = () => {
             Bred for a high content of beneficial substances. Our products are
             all fresh and healthy.
           </p>
-          <Button />
+          <Button content="Shop Now" />
         </div>
         <div>
           <img src={Grocery} alt="" />

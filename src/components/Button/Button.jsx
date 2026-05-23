@@ -1,7 +1,11 @@
-const Button = () => {
+const Button = (props) => {
   return (
-    <button className="bg-gradient-to-b from-orange-400 to-orange-500 px-8 py-3 text-white">
-      Shop Now
+    <button
+      className="bg-gradient-to-b from-orange-400 to-orange-500 px-8 py-3 text-white
+    px-8 py-3 rounded-lg text-lg hover:scale-105 hover:to-orange-600 transition-all duration-300
+    cursor-pointer"
+    >
+      {props.content}
     </button>
   );
 };
