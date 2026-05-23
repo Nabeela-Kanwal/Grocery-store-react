@@ -1,9 +1,14 @@
+import { useState } from "react";
 import { GoHeartFill } from "react-icons/go";
 import { HiMiniShoppingBag } from "react-icons/hi2";
 import { IoSearchSharp } from "react-icons/io5";
 import { TbMenu2 } from "react-icons/tb";
 
 const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(false);
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
   return (
     <header className="bg-white fixed top-0 right-0 left-0">
       <nav className="max-w-[1400px] mx-auto px-10 md:h-[14vh] h-[12vh] flex justify-between items-center">
@@ -67,12 +72,20 @@ const Navbar = () => {
             <HiMiniShoppingBag />
           </a>
 
-          <a href="#" className="text-zinc-800 text-3xl md:hidden">
+          <button
+            type="button"
+            onClick={toggleMenu}
+            className="text-zinc-800 text-3xl md:hidden"
+          >
             <TbMenu2 />
-          </a>
+          </button>
         </div>
         {/* mobile menu */}{" "}
-        <ul className="flex flex-col gap-y-15 bg-orange-500/15 backdrop-blur-xl rounded-xl p-10 items-center gap-x-15 md:hidden absolute top-30 -left-full transform -translate-x-1/2">
+        <ul
+          className={`flex flex-col gap-y-15 bg-orange-500/15 backdrop-blur-xl rounded-xl p-10 items-center gap-x-15 md:hidden absolute top-30 transform -translate-x-1/2 transition-all duration-500 ${
+            showMenu ? "left-1/2" : "-left-full"
+          }`}
+        >
           <li>
             <a href="" className="font-semibold tracking-wider text-orange-500">
               Home
