@@ -2,7 +2,7 @@ import { useState } from "react";
 import { GoHeartFill } from "react-icons/go";
 import { HiMiniShoppingBag } from "react-icons/hi2";
 import { IoSearchSharp } from "react-icons/io5";
-import { TbMenu2 } from "react-icons/tb";
+import { TbMenu2, TbMenu3 } from "react-icons/tb";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -77,7 +77,7 @@ const Navbar = () => {
             onClick={toggleMenu}
             className="text-zinc-800 text-3xl md:hidden"
           >
-            <TbMenu2 />
+            {showMenu ? <TbMenu3 /> : <TbMenu2 />}
           </button>
         </div>
         {/* mobile menu */}{" "}
