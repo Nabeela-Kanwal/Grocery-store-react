@@ -3,12 +3,28 @@ import Heading from "../Heading/Heading";
 import fruitsCat from "../../assets/fruits-and-veggies.png";
 import Dairyat from "../../assets/dairy-and-eggs.png";
 import SeaFoodCat from "../../assets/meat-and-seafood.png";
-
+import Button from "../Button/Button";
 
 const Category = () => {
+  const renderCards = category.map((cards) => {
+    return (
+      <div key={cards.id}>
+        <div>
+          <img src={cards.image} alt={cards.title} />
+        </div>
+        <div>
+          <h3>{cards.title}</h3>
+          <p>{cards.description}</p>
+          <button content="See All" />
+        </div>
+      </div>
+    );
+  });
+
   return (
     <div className="py-20">
       <Heading highlight="Shop" heading="By Category" />
+      <div>{renderCards}</div>
     </div>
   );
 };
