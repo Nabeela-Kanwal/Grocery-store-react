@@ -15,7 +15,7 @@ const Category = () => {
         <div>
           <h3>{cards.title}</h3>
           <p>{cards.description}</p>
-          <button content="See All" />
+          <Button content="See All" />
         </div>
       </div>
     );
