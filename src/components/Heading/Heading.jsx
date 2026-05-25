@@ -1,4 +1,5 @@
 const Heading = ({ highlight, heading }) => {
+  
   return (
     <div className="w-fit mx-auto">
       <h2 className="md:text-5xl text-[2.5rem] font-bold">
