@@ -10,7 +10,7 @@ const Navbar = () => {
     setShowMenu(!showMenu);
   };
   return (
-    <header className="bg-white fixed top-0 right-0 left-0">
+    <header className="bg-white fixed top-0 right-0 left-0 z-50">
       <nav className="max-w-[1400px] mx-auto px-10 md:h-[14vh] h-[12vh] flex justify-between items-center">
         <a href="#" className="text-3xl font-bold">
           Gr<span className="text-orange-500">O</span>cery
@@ -82,7 +82,7 @@ const Navbar = () => {
         </div>
         {/* mobile menu */}{" "}
         <ul
-          className={`flex flex-col gap-y-15 bg-orange-500/15 backdrop-blur-xl rounded-xl p-10 items-center gap-x-15 md:hidden absolute top-30 transform -translate-x-1/2 transition-all duration-500 ${
+          className={`flex flex-col gap-y-15 bg-orange-500/15 backdrop-blur-xl shadow-xl rounded-xl p-10 items-center gap-x-15 md:hidden absolute top-30 transform -translate-x-1/2 transition-all duration-500 ${
             showMenu ? "left-1/2" : "-left-full"
           }`}
         >
