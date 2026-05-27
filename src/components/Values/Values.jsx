@@ -5,21 +5,21 @@ import { FaShield } from "react-icons/fa6";
 import Basket from "../../assets/basket-full-vegetables.png";
 
 const Values = () => {
-  const leftValues = value.slice(0, 2).map((items) => {
-    <div>
+  const leftValues = value.slice(0, 2).map((items) => (
+    <div key={items.id}>
       <div>
         <span>{items.icon}</span>
       </div>
 
       <div>
         <h3>{items.title}</h3>
-        <p>{items.para}</p>
+        <p>{items.description}</p>
       </div>
-    </div>;
-  });
+    </div>
+  ));
   return (
     <section>
-      <div className="max-w-[1400px] macx-auto px-10 py-20">
+      <div className="max-w-[1400px] mx-auto px-10 py-20">
         <Heading highlight="Our" heading="Values" />
         <div className="flex">
           {/* left values */}
