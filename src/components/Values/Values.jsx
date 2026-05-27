@@ -2,12 +2,20 @@ import React from "react";
 import Heading from "../Heading/Heading";
 import { FaHeart, FaLeaf, FaSeedling } from "react-icons/fa";
 import { FaShield } from "react-icons/fa6";
+import Basket from '../../assets/basket-full-vegetables.png';
 
 const Values = () => {
   return (
     <section>
       <div className="max-w-[1400px] macx-auto px-10 py-20">
         <Heading highlight="Our" heading="Values" />
+        <div className="flex">
+          <div></div>
+          <div>
+            <img src={Basket} alt="" />
+          </div>
+
+        </div>
       </div>
     </section>
   );
