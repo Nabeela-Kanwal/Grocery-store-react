@@ -6,12 +6,12 @@ import Basket from "../../assets/basket-full-vegetables.png";
 
 const Values = () => {
   const leftValues = value.slice(0, 2).map((items) => (
-    <div key={items.id}>
+    <div key={items.id} className="flex flex-row-reverse">
       <div>
         <span>{items.icon}</span>
       </div>
 
-      <div>
+      <div className="text-left">
         <h3>{items.title}</h3>
         <p>{items.description}</p>
       </div>
@@ -24,7 +24,9 @@ const Values = () => {
         <div className="flex">
           {/* left values */}
 
-          <div>{leftValues}</div>
+          <div className="w-1/2 pr-10">
+            {leftValues}
+          </div>
           <div>
             <img src={Basket} alt="" />
           </div>
