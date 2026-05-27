@@ -13,7 +13,7 @@ const Values = () => {
         </span>
       </div>
 
-      <div>
+      <div className="text-right">
         <h3 className="text-zinc-800 text-3xl font-bold">{items.title}</h3>
         <p className="text-zinc-600 mt-2">{items.description}</p>
       </div>
