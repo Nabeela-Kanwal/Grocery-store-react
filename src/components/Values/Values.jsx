@@ -8,15 +8,34 @@ const Values = () => {
   const leftValues = value.slice(0, 2).map((items) => (
     <div key={items.id} className="flex flex-row-reverse">
       <div>
-        <span>{items.icon}</span>
+        <span className="flex justify-center items-center text-3xl text-white bg-gradient-to-b from-orange-400 to-orange-500 w-15 h-15 rounded-full">
+          {items.icon}
+        </span>
       </div>
 
-      <div className="text-left">
-        <h3>{items.title}</h3>
-        <p>{items.description}</p>
+      <div className="text-right">
+        <h3 className="text-zinc-800 text-3xl font-bold">{items.title}</h3>
+        <p className="text-zinc-600">{items.description}</p>
       </div>
     </div>
   ));
+
+  const rightValues = value.slice(2).map((items) => (
+    <div key={items.id} className="flex">
+      <div>
+        <span className="flex justify-center items-center text-3xl text-white bg-gradient-to-b from-orange-400 to-orange-500 w-15 h-15 rounded-full">
+          {items.icon}
+        </span>
+      </div>
+
+      <div>
+        <h3 className="text-zinc-800 text-3xl font-bold">{items.title}</h3>
+        <p className="text-zinc-600">{items.description}</p>
+      </div>
+    </div>
+  ));
+
+
   return (
     <section>
       <div className="max-w-[1400px] mx-auto px-10 py-20">
@@ -24,14 +43,16 @@ const Values = () => {
         <div className="flex">
           {/* left values */}
 
-          <div className="w-1/2 pr-10">
+          <div>
             {leftValues}
           </div>
-          <div>
+
+          <div className="w-1/2">
             <img src={Basket} alt="" />
           </div>
 
           {/* right value */}
+          <div>{rightValues}</div>
         </div>
       </div>
     </section>
