@@ -6,14 +6,14 @@ import Basket from "../../assets/basket-full-vegetables.png";
 
 const Values = () => {
   const leftValues = value.slice(0, 2).map((items) => (
-    <div key={items.id} className="flex flex-row-reverse">
+    <div key={items.id} className="flex flex-row-reverse items-center gap-7">
       <div>
         <span className="flex justify-center items-center text-3xl text-white bg-gradient-to-b from-orange-400 to-orange-500 w-15 h-15 rounded-full">
           {items.icon}
         </span>
       </div>
 
-      <div className="text-right">
+      <div>
         <h3 className="text-zinc-800 text-3xl font-bold">{items.title}</h3>
         <p className="text-zinc-600">{items.description}</p>
       </div>
@@ -21,7 +21,7 @@ const Values = () => {
   ));
 
   const rightValues = value.slice(2).map((items) => (
-    <div key={items.id} className="flex">
+    <div key={items.id} className="flex items-center gap-7">
       <div>
         <span className="flex justify-center items-center text-3xl text-white bg-gradient-to-b from-orange-400 to-orange-500 w-15 h-15 rounded-full">
           {items.icon}
@@ -34,7 +34,6 @@ const Values = () => {
       </div>
     </div>
   ));
-
 
   return (
     <section>
@@ -43,7 +42,7 @@ const Values = () => {
         <div className="flex">
           {/* left values */}
 
-          <div>
+          <div className="min-h-100 flex flex-col justify-between">
             {leftValues}
           </div>
 
@@ -52,7 +51,9 @@ const Values = () => {
           </div>
 
           {/* right value */}
-          <div>{rightValues}</div>
+          <div className="min-h-100 flex flex-col justify-between">
+            {rightValues}
+          </div>
         </div>
       </div>
     </section>
