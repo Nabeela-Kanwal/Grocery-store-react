@@ -26,11 +26,11 @@ const Navbar = () => {
     >
       <nav className="max-w-[1400px] mx-auto px-10 md:h-[14vh] h-[12vh] flex justify-between items-center">
         <a href="#" className="text-3xl font-bold">
-          Gr<span className="text-orange-500">O</span>cery
+          Gr<span className="text-green-700">O</span>cery
         </a>
         <ul className="md:flex flex items-center gap-x-15 hidden">
           <li>
-            <a href="" className="font-semibold tracking-wider text-orange-500">
+            <a href="" className="font-semibold tracking-wider text-green-700">
               Home
             </a>
           </li>
@@ -38,7 +38,7 @@ const Navbar = () => {
           <li>
             <a
               href=""
-              className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
+              className="font-semibold tracking-wider text-zinc-800 hover:text-green-700"
             >
               About Us
             </a>
@@ -47,7 +47,7 @@ const Navbar = () => {
           <li>
             <a
               href=""
-              className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
+              className="font-semibold tracking-wider text-zinc-800 hover:text-green-700"
             >
               Process
             </a>
@@ -56,14 +56,14 @@ const Navbar = () => {
           <li>
             <a
               href=""
-              className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
+              className="font-semibold tracking-wider text-zinc-800 hover:text-green-700"
             >
               Contact Us
             </a>
           </li>
         </ul>
         <div className="flex items-center gap-x-5">
-          <div className="md:flex items-center p-1 border-2 border-orange-500 rounded-full hidden">
+          <div className="md:flex items-center p-1 border-2 border-green-700 rounded-full hidden">
             <input
               type="text"
               name="text"
@@ -72,7 +72,7 @@ const Navbar = () => {
               className="flex-1 h-10 px-3 focus:outline-none"
             />
 
-            <button className="bg-orange-600 text-white w-10 h-10 p-0 flex justify-center items-center rounded-full text-xl leading-none">
+            <button className="bg-green-600 text-white w-10 h-10 p-0 flex justify-center items-center rounded-full text-xl leading-none">
               <IoSearchSharp className="block" />
             </button>
           </div>
@@ -95,12 +95,12 @@ const Navbar = () => {
         </div>
         {/* mobile menu */}{" "}
         <ul
-          className={`flex flex-col gap-y-15 bg-orange-500/15 backdrop-blur-xl shadow-xl rounded-xl p-10 items-center gap-x-15 md:hidden absolute top-30 transform -translate-x-1/2 transition-all duration-500 ${
+          className={`flex flex-col gap-y-15 bg-green-700/15 backdrop-blur-xl shadow-xl rounded-xl p-10 items-center gap-x-15 md:hidden absolute top-30 transform -translate-x-1/2 transition-all duration-700 ${
             showMenu ? "left-1/2" : "-left-full"
           }`}
         >
           <li>
-            <a href="" className="font-semibold tracking-wider text-orange-500">
+            <a href="" className="font-semibold tracking-wider text-green-700">
               Home
             </a>
           </li>
@@ -108,7 +108,7 @@ const Navbar = () => {
           <li>
             <a
               href=""
-              className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
+              className="font-semibold tracking-wider text-zinc-800 hover:text-green-700"
             >
               About Us
             </a>
@@ -117,7 +117,7 @@ const Navbar = () => {
           <li>
             <a
               href=""
-              className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
+              className="font-semibold tracking-wider text-zinc-800 hover:text-green-700"
             >
               Process
             </a>
@@ -126,12 +126,12 @@ const Navbar = () => {
           <li>
             <a
               href=""
-              className="font-semibold tracking-wider text-zinc-800 hover:text-orange-500"
+              className="font-semibold tracking-wider text-zinc-800 hover:text-green-700"
             >
               Contact Us
             </a>
           </li>
-          <li className="flex items-center p-1 border-2 border-orange-500 rounded-full md:hidden">
+          <li className="flex items-center p-1 border-2 border-green-700 rounded-full md:hidden">
             <input
               type="text"
               name="text"
@@ -140,7 +140,7 @@ const Navbar = () => {
               className="flex-1 h-10 px-3 focus:outline-none"
             />
 
-            <button className="bg-orange-600 text-white w-10 h-10 p-0 flex justify-center items-center rounded-full text-xl leading-none">
+            <button className="bg-green-600 text-white w-10 h-10 p-0 flex justify-center items-center rounded-full text-xl leading-none">
               <IoSearchSharp className="block" />
             </button>
           </li>
