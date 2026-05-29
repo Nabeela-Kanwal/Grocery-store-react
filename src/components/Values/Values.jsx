@@ -39,7 +39,7 @@ const Values = () => {
     <section>
       <div className="max-w-[1400px] mx-auto px-10 py-20">
         <Heading highlight="Our" heading="Values" />
-        <div className="flex  md:flex-row flex-col gap-5 mt-15">
+        <div className="flex  md:flex-row flex-col gap-15 md:gap-5 mt-15">
           {/* left values */}
 
           <div className="md:min-h-100 gap-15 flex flex-col justify-between">
