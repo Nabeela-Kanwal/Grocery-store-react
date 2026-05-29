@@ -11,7 +11,11 @@ const Products = () => {
         {/* Tabs */}
         <div>
           {categories.map((category) => {
-            return <button>{category}</button>;
+            return (
+              <button key={category} className="zinc-100 px-5 py-2 text-lg ">
+                {category}
+              </button>
+            );
           })}
         </div>
       </div>

@@ -3,7 +3,7 @@ import Heading from "../Heading/Heading";
 import { FaHeart, FaLeaf, FaSeedling } from "react-icons/fa";
 import { FaShield } from "react-icons/fa6";
 import Basket from "../../assets/basket-full-vegetables.png";
-
+ 
 const Values = () => {
   const leftValues = value.slice(0, 2).map((items) => (
     <div key={items.id} className="flex md:flex-row-reverse items-center gap-7">
