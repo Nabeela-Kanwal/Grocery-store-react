@@ -6,14 +6,14 @@ import Basket from "../../assets/basket-full-vegetables.png";
 
 const Values = () => {
   const leftValues = value.slice(0, 2).map((items) => (
-    <div key={items.id} className="flex flex-row-reverse items-center gap-7">
+    <div key={items.id} className="flex md:flex-row-reverse items-center gap-7">
       <div>
         <span className="flex justify-center items-center text-3xl text-white bg-gradient-to-b from-green-700 to-green-800 w-15 h-15 rounded-full">
           {items.icon}
         </span>
       </div>
 
-      <div className="text-right">
+      <div className="md:text-right">
         <h3 className="text-zinc-800 text-3xl font-bold">{items.title}</h3>
         <p className="text-zinc-600 mt-2">{items.description}</p>
       </div>
@@ -39,19 +39,19 @@ const Values = () => {
     <section>
       <div className="max-w-[1400px] mx-auto px-10 py-20">
         <Heading highlight="Our" heading="Values" />
-        <div className="flex gap-5 mt-15">
+        <div className="flex  md:flex-row flex-col gap-5 mt-15">
           {/* left values */}
 
-          <div className="min-h-100 flex flex-col justify-between">
+          <div className="md:min-h-100 gap-15 flex flex-col justify-between">
             {leftValues}
           </div>
 
-          <div className="w-1/2">
+          <div className="md:flex w-1/2 hidden">
             <img src={Basket} alt="" />
           </div>
 
           {/* right value */}
-          <div className="min-h-100 flex flex-col justify-between">
+          <div className="md:min-h-100 gap-15 flex flex-col justify-between">
             {rightValues}
           </div>
         </div>

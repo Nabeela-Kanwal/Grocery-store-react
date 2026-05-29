@@ -72,7 +72,7 @@ const Navbar = () => {
               className="flex-1 h-10 px-3 focus:outline-none"
             />
 
-            <button className="bg-green-600 text-white w-10 h-10 p-0 flex justify-center items-center rounded-full text-xl leading-none">
+            <button className="bg-green-700 text-white w-10 h-10 p-0 flex justify-center items-center rounded-full text-xl leading-none">
               <IoSearchSharp className="block" />
             </button>
           </div>
