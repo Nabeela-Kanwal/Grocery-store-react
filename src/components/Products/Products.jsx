@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Heading from "../Heading/Heading";
 import ProductList from "../ProductList/ProductList";
 import Cards from "../Cards/Cards";
+import Button from "../Button/Button";
 
 const Products = () => {
   const categories = ["All", "Fruits", "Vegetables", "Dairy", "Sea Food"];
@@ -10,7 +11,7 @@ const Products = () => {
     activeTab === "All"
       ? ProductList
       : ProductList.filter(
-          (product) => product.category === activeTab.replace(" ", "")
+          (product) => product.category === activeTab.replace(" ", ""),
         );
 
   const renderCards = filteredProducts.map((product) => {
@@ -40,6 +41,10 @@ const Products = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
           {renderCards}
         </div>
+      </div>
+
+      <div className="flex justify-center">
+        <Button content="View All" />
       </div>
     </section>
   );
