@@ -7,8 +7,8 @@ const Cards = ({ product }) => {
     <div className="bg-zinc-100 rounded-lg p-5 shadow-sm">
       {/* card icons */}
       <div className="flex justify-between text-zinc-700">
-        <span className="cursor-pointer  hover:text-red-500">
-          <FaHeart />
+        <span className="cursor-pointer text-zinc-400 hover:text-red-500">
+          <FaHeart className="text-2xl" />
         </span>
         <button className="cursor-pointer bg-green-700 h-8 w-8 rounded-lg text-white flex items-center justify-center">
           <FaPlus />
