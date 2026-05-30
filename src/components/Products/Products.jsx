@@ -15,8 +15,8 @@ const Products = () => {
             return (
               <button
                 key={category}
-                className={`px-5 py-2 text-lg rounded-lg
-                  ${activeTab === category ? "bg-green-700 text-white" : "bg-white text-zinc-800"}`}
+                className={`px-5 py-2 text-lg rounded-lg cursor-pointer
+                  ${activeTab === category ? "bg-gradient-to-b from-green-600 to-green-700 text-white" : "bg-white text-zinc-800"}`}
                 onClick={() => setActiveTab(category)}
               >
                 {category}
