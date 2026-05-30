@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Heading from "../Heading/Heading";
+import strawberry from "..assest/..strawberry.png";
 
 const Products = () => {
   const categories = ["All", "Fruits", "Vegetables", "Dairy", "Sea Food"];
@@ -30,3 +31,12 @@ const Products = () => {
 };
 
 export default Products;
+
+const product = [
+  {
+    id: 1,
+    title: "strawberry",
+    price: 3.0,
+    image: strawberry,
+  },
+];
