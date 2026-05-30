@@ -1,12 +1,20 @@
 import React, { useState } from "react";
 import Heading from "../Heading/Heading";
 import ProductList from "../ProductList/ProductList";
+import Cards from "../Cards/Cards";
 
 const Products = () => {
   const categories = ["All", "Fruits", "Vegetables", "Dairy", "Sea Food"];
   const [activeTab, setActiveTab] = useState("All");
-  const renderCards = ProductList.map((product) => {
-    return <Cards />;
+  const filteredProducts =
+    activeTab === "All"
+      ? ProductList
+      : ProductList.filter(
+          (product) => product.category === activeTab.replace(" ", "")
+        );
+
+  const renderCards = filteredProducts.map((product) => {
+    return <Cards key={product.id} product={product} />;
   });
   return (
     <section>
@@ -29,7 +37,9 @@ const Products = () => {
           })}
         </div>
         {/* productlisting */}
-        <div>{renderCards}</div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+          {renderCards}
+        </div>
       </div>
     </section>
   );

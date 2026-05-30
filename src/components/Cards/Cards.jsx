@@ -2,26 +2,32 @@ import React from "react";
 import { FaHeart, FaPlus } from "react-icons/fa";
 import Button from "../Button/Button";
 
-const Cards = () => {
+const Cards = ({ product }) => {
   return (
-    <div>
+    <div className="bg-white rounded-lg p-5 shadow-sm">
       {/* card icons */}
-      <div>
-        <span>
+      <div className="flex justify-between text-zinc-700">
+        <span className="cursor-pointer hover:text-red-500">
           <FaHeart />
         </span>
-        <button>
+        <button className="cursor-pointer hover:text-green-700">
           <FaPlus />
         </button>
       </div>
       {/* card image  */}
-      <div>
-        <img src="" alt="" />
+      <div className="h-45 flex items-center justify-center">
+        <img
+          src={product.image}
+          alt={product.name}
+          className="max-h-full object-contain"
+        />
       </div>
       {/* card content */}
-      <div>
-        <h3>title</h3>
-        <p>00</p>
+      <div className="text-center">
+        <h3 className="text-xl font-bold text-zinc-800">{product.name}</h3>
+        <p className="text-green-700 font-semibold my-3">
+          ${product.price.toFixed(2)}
+        </p>
         <Button content="Shop Now" />
       </div>
     </div>

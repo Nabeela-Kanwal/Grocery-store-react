@@ -201,3 +201,5 @@ const products = [
     image: Lettuce,
   },
 ];
+
+export default products;
