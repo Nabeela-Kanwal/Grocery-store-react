@@ -5,6 +5,9 @@ import ProductList from "../ProductList/ProductList";
 const Products = () => {
   const categories = ["All", "Fruits", "Vegetables", "Dairy", "Sea Food"];
   const [activeTab, setActiveTab] = useState("All");
+  const renderCards = ProductList.map((product) => {
+    return <Cards />;
+  });
   return (
     <section>
       <div className="max-w-[1400px] mx-auto px-10 py-20">
@@ -25,6 +28,8 @@ const Products = () => {
             );
           })}
         </div>
+        {/* productlisting */}
+        <div>{renderCards}</div>
       </div>
     </section>
   );
