@@ -10,7 +10,7 @@ const Discount = () => {
     >
       <div className="max-w-[1400px] mx-auto px-6 sm:px-10 py-16 md:py-20">
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-14 text-center md:text-left">
-          <span className="text-7xl sm:text-8xl md:text-9xl text-green-700 font-bold leading-none">
+          <span className="text-7xl sm:text-8xl md:text-9xl text-green-700 font-bold leading-none transform -rotate-90">
             20%
           </span>
 
