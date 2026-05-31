@@ -1,6 +1,11 @@
 import React from "react";
 import Heading from "../Heading/Heading";
-import { TbCircleNumber1Filled } from "react-icons/tb";
+import {
+  TbCircleNumber1Filled,
+  TbCircleNumber2Filled,
+  TbCircleNumber3Filled,
+  TbCircleNumber4Filled,
+} from "react-icons/tb";
 import { PiPlant } from "react-icons/pi";
 
 const Process = () => {
@@ -28,24 +33,24 @@ const steps = [
 
   {
     id: 2,
-    number: <TbCircleNumber1Filled />,
-    title: "Sourcing",
+    number: <TbCircleNumber2Filled />,
+    title: "Manufacturing",
     para: "It is a long established fact that a reader",
     icon: <PiPlant />,
   },
 
   {
     id: 3,
-    number: <TbCircleNumber1Filled />,
-    title: "Sourcing",
-    para: "It is a long established fact that a reader",
+    number: <TbCircleNumber3Filled />,
+    title: "Quality Control",
+    para: "t is a long established fact that a reader",
     icon: <PiPlant />,
   },
 
   {
     id: 4,
-    number: <TbCircleNumber1Filled />,
-    title: "Sourcing",
+    number: <TbCircleNumber4Filled />,
+    title: "Logistics",
     para: "It is a long established fact that a reader",
     icon: <PiPlant />,
   },
