@@ -1,9 +1,13 @@
 import React from "react";
 import Button from "../Button/Button";
+import FreshFruits from "../../assets/fresh-fruits.png";
 
 const Discount = () => {
   return (
-    <section className="bg-zinc-100 mt-20">
+    <section
+      className="bg-zinc-100 bg-no-repeat bg-right bg-contain mt-20"
+      style={{ backgroundImage: `url(${FreshFruits})` }}
+    >
       <div className="max-w-[1400px] mx-auto px-6 sm:px-10 py-16 md:py-20">
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-14 text-center md:text-left">
           <span className="text-7xl sm:text-8xl md:text-9xl text-green-700 font-bold leading-none">
