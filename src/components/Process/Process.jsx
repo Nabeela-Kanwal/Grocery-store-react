@@ -11,6 +11,22 @@ import { SlBadge } from "react-icons/sl";
 import { BsTruck } from "react-icons/bs";
 
 const Process = () => {
+  const renderSteps = steps.map((items) => {
+    return (
+      <div>
+        <span>{items.number}</span>
+        <div>
+          <div>
+            <span>{items.icon}</span>
+          </div>
+          <div>
+            <h3>{items.title}</h3>
+            <p>{items.para}</p>
+          </div>
+        </div>
+      </div>
+    );
+  });
   return (
     <section>
       <div className="max-w-[1400px] mx-auto px-10 py-20">
