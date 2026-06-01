@@ -13,15 +13,20 @@ import { BsTruck } from "react-icons/bs";
 const Process = () => {
   const renderSteps = steps.map((items) => {
     return (
-      <div>
-        <span>{items.number}</span>
-        <div>
-          <div>
+      <div
+        key={items.id}
+        className="relative flex flex-col gap-5 rounded-lg border border-zinc-200 bg-white p-6 shadow-sm"
+      >
+        <span className="absolute -top-4 left-6 text-4xl text-green-700 bg-white rounded-full">
+          {items.number}
+        </span>
+        <div className="flex items-start gap-4 pt-4">
+          <div className="grid h-14 w-14 shrink-0 place-items-center rounded-full bg-green-100 text-3xl text-green-700">
             <span>{items.icon}</span>
           </div>
           <div>
-            <h3>{items.title}</h3>
-            <p>{items.para}</p>
+            <h3 className="text-xl font-bold text-zinc-800">{items.title}</h3>
+            <p className="mt-2 text-zinc-600">{items.para}</p>
           </div>
         </div>
       </div>
@@ -32,6 +37,9 @@ const Process = () => {
       <div className="max-w-[1400px] mx-auto px-10 py-20">
         <div className="w-fit mr-auto ">
           <Heading highlight="Our" heading="Process" />
+        </div>
+        <div className="grid gap-8 pt-16 sm:grid-cols-2 lg:grid-cols-4">
+          {renderSteps}
         </div>
       </div>
     </section>
