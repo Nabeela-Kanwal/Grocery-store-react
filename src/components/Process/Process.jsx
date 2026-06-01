@@ -6,7 +6,9 @@ import {
   TbCircleNumber3Filled,
   TbCircleNumber4Filled,
 } from "react-icons/tb";
-import { PiPlant } from "react-icons/pi";
+import { PiFactory, PiPlant } from "react-icons/pi";
+import { SlBadge } from "react-icons/sl";
+import { BsTruck } from "react-icons/bs";
 
 const Process = () => {
   return (
@@ -36,7 +38,7 @@ const steps = [
     number: <TbCircleNumber2Filled />,
     title: "Manufacturing",
     para: "It is a long established fact that a reader",
-    icon: <PiPlant />,
+    icon: <PiFactory />,
   },
 
   {
@@ -44,7 +46,7 @@ const steps = [
     number: <TbCircleNumber3Filled />,
     title: "Quality Control",
     para: "t is a long established fact that a reader",
-    icon: <PiPlant />,
+    icon: <SlBadge />,
   },
 
   {
@@ -52,6 +54,6 @@ const steps = [
     number: <TbCircleNumber4Filled />,
     title: "Logistics",
     para: "It is a long established fact that a reader",
-    icon: <PiPlant />,
+    icon: <BsTruck />,
   },
 ];
