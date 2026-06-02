@@ -26,7 +26,7 @@ const Process = () => {
           <h4 className="text-zinc-800 text-2xl font-bold">{items.title}</h4>
           <p className="text-zinc-600 mt-2">{items.para}</p>
         </div>
-      </div>
+      </div>  
     );
   });
   return (
