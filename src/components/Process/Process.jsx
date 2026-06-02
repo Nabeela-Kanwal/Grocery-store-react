@@ -20,7 +20,7 @@ const Process = () => {
           {items.number}
         </span>
         <div className="flex shrink-0 items-center justify-center">
-          <span className="flex size-12 items-center justify-center rounded-full bg-orange-600 text-2xl text-white shadow-sm md:size-11 md:text-xl">
+          <span className="flex size-12 items-center justify-center rounded-full bg-green-700 text-2xl text-white shadow-sm md:size-11 md:text-xl">
             {items.icon}
           </span>
         </div>
@@ -43,7 +43,7 @@ const Process = () => {
     <section>
       <div className="max-w-[1400px] mx-auto px-10 py-20">
         <div className="w-fit mr-auto">
-          <Heading highlight="Our" heading="Process" accent="orange" />
+          <Heading highlight="Our" heading="Process" accent="green" />
         </div>
         <div className="relative mt-16 grid gap-14 md:mt-24 md:h-96 md:block">
           {renderSteps}
