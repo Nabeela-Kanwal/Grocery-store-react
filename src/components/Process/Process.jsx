@@ -17,11 +17,11 @@ const Process = () => {
         <span className="flex justify-center items-center w-18 h-18 rounded-full text-8xl bg-zinc-800 text-white outline=[3px]  outline-zinc-800 outline-dashed=">
           {items.number}
         </span>
-        <div>
-          <span>{items.icon}</span>
+        <div className="flex items-center">
+          <span className="flex bg-gradient-to-b from-green-600 to-green-700 text-white">{items.icon}</span>
         </div>
         <div>
-          <h3>{items.title}</h3>
+          <h4>{items.title}</h4>
           <p>{items.para}</p>
         </div>
       </div>
