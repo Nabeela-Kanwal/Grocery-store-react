@@ -18,11 +18,13 @@ const Process = () => {
           {items.number}
         </span>
         <div className="flex items-center">
-          <span className="flex bg-gradient-to-b from-green-600 to-green-700 text-white">{items.icon}</span>
+          <span className="flex bg-gradient-to-b from-green-600 to-green-700 text-white">
+            {items.icon}
+          </span>
         </div>
         <div>
-          <h4>{items.title}</h4>
-          <p>{items.para}</p>
+          <h4 className="text-zinc-800 text-2xl font-bold">{items.title}</h4>
+          <p className="text-zinc-600 mt-2">{items.para}</p>
         </div>
       </div>
     );
@@ -33,7 +35,9 @@ const Process = () => {
         <div className="w-fit mr-auto ">
           <Heading highlight="Our" heading="Process" />
         </div>
-        <div className="flex mt-20 ">{renderSteps}</div>
+        <div className="flex mt-20 justify-center gap-y-17 mt-20">
+          {renderSteps}
+        </div>
       </div>
     </section>
   );
