@@ -13,12 +13,12 @@ import { BsTruck } from "react-icons/bs";
 const Process = () => {
   const renderSteps = steps.map((items) => {
     return (
-      <div>
+      <div className="flex-1">
         <span className="flex justify-center items-center w-18 h-18 rounded-full text-8xl bg-zinc-800 text-white outline=[3px]  outline-zinc-800 outline-dashed=">
           {items.number}
         </span>
         <div className="flex items-center">
-          <span className="flex bg-gradient-to-b from-green-600 to-green-700 text-white">
+          <span className="flex justify-center items-center text-3xl bg-gradient-to-b from-green-600 to-green-700 text-white w-15 h-15 rounded-full">
             {items.icon}
           </span>
         </div>
@@ -35,9 +35,7 @@ const Process = () => {
         <div className="w-fit mr-auto ">
           <Heading highlight="Our" heading="Process" />
         </div>
-        <div className="flex mt-20 justify-center gap-y-17 mt-20">
-          {renderSteps}
-        </div>
+        <div className="flex mt-20 justify-center mt-20">{renderSteps}</div>
       </div>
     </section>
   );
