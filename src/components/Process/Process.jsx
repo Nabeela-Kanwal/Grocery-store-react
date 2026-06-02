@@ -20,7 +20,7 @@ const Process = () => {
           {items.number}
         </span>
         <div className="flex shrink-0 items-center justify-center">
-          <span className="flex size-12 items-center justify-center rounded-full bg-green-700 text-2xl text-white shadow-sm md:size-11 md:text-xl">
+          <span className="flex size-12 mt-10 items-center justify-center rounded-full bg-green-700 text-2xl text-white shadow-sm md:size-11 md:text-xl">
             {items.icon}
           </span>
         </div>
@@ -28,7 +28,7 @@ const Process = () => {
           <span className="mb-2 flex size-10 items-center justify-center rounded-full bg-white text-3xl text-zinc-800 outline-2 outline-offset-3 outline-dashed outline-zinc-800 md:hidden">
             {items.number}
           </span>
-          <h4 className="text-base font-bold text-zinc-800 md:text-sm">
+          <h4 className="text-base font-bold text-zinc-800 md:text-sm mt-10">
             {items.title}
           </h4>
           <p className="mt-1 max-w-44 text-sm leading-relaxed text-zinc-600 md:text-xs">
