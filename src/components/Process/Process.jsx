@@ -14,8 +14,7 @@ const Process = () => {
     return (
       <div
         key={items.id}
-        className={`relative flex items-start gap-4 md:absolute md:w-64 ${items.position}`}
-      >
+        className={`relative flex items-start gap-4 md:absolute md:w-64 ${items.position}`}>
         <span className="absolute -top-14 left-12 hidden size-16 items-center justify-center rounded-full bg-white text-5xl text-zinc-800 outline-2 outline-offset-4 outline-dashed outline-zinc-800 md:flex">
           {items.number}
         </span>
