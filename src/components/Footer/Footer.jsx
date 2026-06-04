@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
-}
+  return <footer className="bg-zinc-100 py-20">
+    <div>
+      
+    </div>
+  </footer>;
+};
 
-export default Footer
+export default Footer;
