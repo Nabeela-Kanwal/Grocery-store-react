@@ -16,6 +16,17 @@ const Footer = () => {
             2025 &copy; Grocery. All rights reserved.
           </p>
         </div>
+        <ul>
+          <li>
+            <h5 className="text-zinc-800 text-2xl">Company</h5>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">FAQs</a>
+          </li>
+        </ul>
       </div>
     </footer>
   );
