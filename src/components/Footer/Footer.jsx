@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-zinc-100 py-20">
-      <div className="max-w-[1400px] mx-auto py-10">
+      <div className="flex flex-wrap max-w-[1400px] mx-auto py-10">
         <div>
           <a href="#" className="text-3xl font-bold">
             Gr<span className="text-green-800">O</span>cery
@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <ul>
           <li>
-            <h5 className="text-zinc-800 text-2xl">Company</h5>
+            <h5 className="text-zinc-800 text-2xl font-bold">Company</h5>
           </li>
           <li className="mt-6">
             <a href="" className="text-zinc-800 hover:text-green-800">
@@ -28,6 +28,27 @@ const Footer = () => {
           <li className="mt-6">
             <a href="" className="text-zinc-800 hover:text-green-800">
               FAQs
+            </a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <h5 className="text-zinc-800 text-2xl font-bold">Support</h5>
+          </li>
+          <li className="mt-6">
+            <a href="" className="text-zinc-800 hover:text-green-800">
+              Support Center
+            </a>
+          </li>
+          <li className="mt-6">
+            <a href="" className="text-zinc-800 hover:text-green-800">
+              Feedback
+            </a>
+          </li>
+          <li className="mt-6">
+            <a href="" className="text-zinc-800 hover:text-green-800">
+              Contact Us
             </a>
           </li>
         </ul>
