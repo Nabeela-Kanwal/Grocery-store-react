@@ -54,10 +54,11 @@ const Footer = () => {
         </ul>
         <div>
           <h5 className="text-zinc-800 text-2xl font-bold">Stay Connected</h5>
-          <p>
+          <p className="mt-6 text-zinc-600">
             Questions or Feedback? <br />
             We'd love to hear from you!
           </p>
+          <div></div>
         </div>
       </div>
     </footer>
