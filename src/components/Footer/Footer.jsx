@@ -1,4 +1,5 @@
 import React from "react";
+import { IoIosArrowForward } from "react-icons/io";
 
 const Footer = () => {
   return (
@@ -58,7 +59,16 @@ const Footer = () => {
             Questions or Feedback? <br />
             We'd love to hear from you!
           </p>
-          <div></div>
+          <div>
+            <input
+              type="email"
+              name="name"
+              id="name"
+              autoComplete="off"
+              placeholder="Email Address"
+            />
+            <IoIosArrowForward />
+          </div>
         </div>
       </div>
     </footer>
