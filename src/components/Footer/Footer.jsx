@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-zinc-100 py-20">
       <div className="flex flex-wrap max-w-[1400px] mx-auto py-10">
-        <div>
+        <div className="flex-1">
           <a href="#" className="text-3xl font-bold">
             Gr<span className="text-green-800">O</span>cery
           </a>
@@ -16,7 +16,7 @@ const Footer = () => {
             2025 &copy; Grocery. All rights reserved.
           </p>
         </div>
-        <ul>
+        <ul className="flex-1">
           <li>
             <h5 className="text-zinc-800 text-2xl font-bold">Company</h5>
           </li>
@@ -32,7 +32,7 @@ const Footer = () => {
           </li>
         </ul>
 
-        <ul>
+        <ul className="flex-1">
           <li>
             <h5 className="text-zinc-800 text-2xl font-bold">Support</h5>
           </li>
