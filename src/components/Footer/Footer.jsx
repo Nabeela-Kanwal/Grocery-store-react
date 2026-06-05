@@ -20,13 +20,13 @@ const Footer = () => {
           <li>
             <h5 className="text-zinc-800 text-2xl">Company</h5>
           </li>
-          <li>
-            <a href="" className="hover:text-green-700">
+          <li className="mt-6">
+            <a href="" className="text-zinc-800 hover:text-green-800">
               About
             </a>
           </li>
-          <li>
-            <a href="" className="hover:text-green-700">
+          <li className="mt-6">
+            <a href="" className="text-zinc-800 hover:text-green-800">
               FAQs
             </a>
           </li>
