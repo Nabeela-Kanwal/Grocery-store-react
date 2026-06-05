@@ -52,6 +52,13 @@ const Footer = () => {
             </a>
           </li>
         </ul>
+        <div>
+          <h5 className="text-zinc-800 text-2xl font-bold">Stay Connected</h5>
+          <p>
+            Questions or Feedback? <br />
+            We'd love to hear from you!
+          </p>
+        </div>
       </div>
     </footer>
   );
