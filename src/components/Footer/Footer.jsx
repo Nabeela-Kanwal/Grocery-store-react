@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-zinc-100 py-20">
       <div className="flex flex-wrap max-w-[1400px] mx-auto py-10">
-        <div className="flex-1">
+        <div className="flex-1 basis-[300px]">
           <a href="#" className="text-3xl font-bold">
             Gr<span className="text-green-800">O</span>cery
           </a>
