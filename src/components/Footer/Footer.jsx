@@ -21,10 +21,14 @@ const Footer = () => {
             <h5 className="text-zinc-800 text-2xl">Company</h5>
           </li>
           <li>
-            <a href="">About</a>
+            <a href="" className="hover:text-green-700">
+              About
+            </a>
           </li>
           <li>
-            <a href="">FAQs</a>
+            <a href="" className="hover:text-green-700">
+              FAQs
+            </a>
           </li>
         </ul>
       </div>
