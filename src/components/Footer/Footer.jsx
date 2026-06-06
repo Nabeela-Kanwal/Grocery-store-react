@@ -59,16 +59,23 @@ const Footer = () => {
             Questions or Feedback? <br />
             We'd love to hear from you!
           </p>
-          <div>
+          <form className="mt-6 flex max-w-[360px] items-center rounded-full border border-zinc-300 bg-white px-4 py-2 focus-within:border-green-800">
             <input
               type="email"
-              name="name"
-              id="name"
+              name="email"
+              id="email"
               autoComplete="off"
+              className="w-full bg-transparent text-zinc-800 outline-none placeholder:text-zinc-500"
               placeholder="Email Address"
             />
-            <IoIosArrowForward />
-          </div>
+            <button
+              type="submit"
+              className="ml-3 flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-green-800 text-white transition hover:bg-green-900"
+              aria-label="Submit email"
+            >
+              <IoIosArrowForward />
+            </button>
+          </form>
         </div>
       </div>
     </footer>
