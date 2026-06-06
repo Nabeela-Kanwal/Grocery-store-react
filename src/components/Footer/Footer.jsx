@@ -17,7 +17,7 @@ const Footer = () => {
             2025 &copy; Grocery. All rights reserved.
           </p>
         </div>
-        <ul className="flex-1">
+        <ul className="flex-1"> 
           <li>
             <h5 className="text-zinc-800 text-2xl font-bold">Company</h5>
           </li>
