@@ -40,3 +40,45 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
+
+const review = [
+  {
+    id: 1,
+    name: "John Doe",
+    profession: "Software Engineer",
+    rating: 4.5,
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consequatur molestias iste aliquam, nemo ducimus odit fugit ea perspiciatis quia!",
+  },
+
+  {
+    id: 2,
+    name: "John Doe",
+    profession: "Software Engineer",
+    rating: 4.5,
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consequatur molestias iste aliquam, nemo ducimus odit fugit ea perspiciatis quia!",
+  },
+
+  {
+    id: 3,
+    name: "John Doe",
+    profession: "Software Engineer",
+    rating: 4.5,
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consequatur molestias iste aliquam, nemo ducimus odit fugit ea perspiciatis quia!",
+  },
+
+  {
+    id: 4,
+    name: "John Doe",
+    profession: "Software Engineer",
+    rating: 4.5,
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consequatur molestias iste aliquam, nemo ducimus odit fugit ea perspiciatis quia!",
+  },
+
+  {
+    id: 5,
+    name: "John Doe",
+    profession: "Software Engineer",
+    rating: 4.5,
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consequatur molestias iste aliquam, nemo ducimus odit fugit ea perspiciatis quia!",
+  },
+];
