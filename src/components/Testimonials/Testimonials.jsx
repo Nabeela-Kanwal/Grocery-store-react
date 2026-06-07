@@ -16,6 +16,12 @@ const Testimonials = () => {
             <IoIosArrowForward />
           </button>
         </div>
+
+        <div className="bg-zinc-100 rounded-xl p-8">
+          <div>
+            <div className="w-16 h-16 rounded-full bg-red-500 outline-2 outline-green-700 outline-offset-4"></div>
+          </div>
+        </div>
       </div>
     </section>
   );
