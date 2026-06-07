@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "../Heading/Heading";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-
+import Customer1 from "../../assets/customer1.jpg";
 const Testimonials = () => {
   return (
     <section>
@@ -48,6 +48,7 @@ const review = [
     profession: "Software Engineer",
     rating: 4.5,
     para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consequatur molestias iste aliquam, nemo ducimus odit fugit ea perspiciatis quia!",
+    image: Customer1,
   },
 
   {
