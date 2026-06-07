@@ -62,6 +62,7 @@ const review = [
     profession: "Software Engineer",
     rating: 4.5,
     para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consequatur molestias iste aliquam, nemo ducimus odit fugit ea perspiciatis quia!",
+    image: Customer2,
   },
 
   {
@@ -70,6 +71,7 @@ const review = [
     profession: "Software Engineer",
     rating: 4.5,
     para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consequatur molestias iste aliquam, nemo ducimus odit fugit ea perspiciatis quia!",
+    image: Customer3,
   },
 
   {
@@ -78,6 +80,7 @@ const review = [
     profession: "Software Engineer",
     rating: 4.5,
     para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consequatur molestias iste aliquam, nemo ducimus odit fugit ea perspiciatis quia!",
+    image: Customer4,
   },
 
   {
@@ -86,5 +89,6 @@ const review = [
     profession: "Software Engineer",
     rating: 4.5,
     para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consequatur molestias iste aliquam, nemo ducimus odit fugit ea perspiciatis quia!",
+    image: Customer5,
   },
 ];
