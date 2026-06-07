@@ -2,6 +2,11 @@ import React from "react";
 import Heading from "../Heading/Heading";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import Customer1 from "../../assets/customer1.jpg";
+import Customer2 from "../../assets/customer2.jpg";
+import Customer3 from "../../assets/customer3.jpg";
+import Customer4 from "../../assets/customer4.jpg";
+import Customer5 from "../../assets/customer5.jpg";
+
 const Testimonials = () => {
   return (
     <section>
