@@ -23,7 +23,15 @@ const Testimonials = () => {
             <div>
               <h5 className="text-xl font-bold">Name</h5>
               <p className="text-zinc-600">Profession</p>
+              <span className="text-green-700 font-bold">Rating</span>
             </div>
+          </div>
+          <div className="mt-10">
+            <p className="text-zinc-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+              consequatur molestias iste aliquam, nemo ducimus odit fugit ea
+              perspiciatis quia!
+            </p>
           </div>
         </div>
       </div>
