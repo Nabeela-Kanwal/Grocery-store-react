@@ -8,8 +8,7 @@ import Customer2 from "../../assets/customer2.jpg";
 import Customer3 from "../../assets/customer3.jpg";
 import Customer4 from "../../assets/customer4.jpg";
 import Customer5 from "../../assets/customer5.jpg";
-import 'swiper/css';
-import 'swiper/css/navigation';
+
 
 const Testimonials = () => {
   return (
