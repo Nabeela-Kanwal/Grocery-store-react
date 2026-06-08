@@ -24,6 +24,18 @@ const Testimonials = () => {
           </button>
         </div>
 
+        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+          <SwiperSlide>Slide 1</SwiperSlide>
+          <SwiperSlide>Slide 2</SwiperSlide>
+          <SwiperSlide>Slide 3</SwiperSlide>
+          <SwiperSlide>Slide 4</SwiperSlide>
+          <SwiperSlide>Slide 5</SwiperSlide>
+          <SwiperSlide>Slide 6</SwiperSlide>
+          <SwiperSlide>Slide 7</SwiperSlide>
+          <SwiperSlide>Slide 8</SwiperSlide>
+          <SwiperSlide>Slide 9</SwiperSlide>
+        </Swiper>
+
         {/* <div className="bg-zinc-100 rounded-xl p-8">
           <div className="flex gap-5 items-center">
             <div className="w-16 h-16 rounded-full bg-red-500 outline-2 outline-green-700 outline-offset-4"></div>
