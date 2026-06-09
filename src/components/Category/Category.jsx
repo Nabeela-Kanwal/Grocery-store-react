@@ -1,4 +1,3 @@
-import React from "react";
 import Heading from "../Heading/Heading";
 import fruitsCat from "../../assets/fruits-and-veggies.png";
 import Dairyat from "../../assets/dairy-and-eggs.png";

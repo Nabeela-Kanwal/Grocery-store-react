@@ -1,4 +1,7 @@
 import Home from "./components/Home/Home";
+import Fruits from "./components/Fruits/Fruits";
+import Dairy from "./components/Dairy/Dairy";
+import SeaFood from "./components/SeaFood/SeaFood";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const App = () => {

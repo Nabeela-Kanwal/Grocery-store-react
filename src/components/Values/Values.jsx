@@ -1,4 +1,3 @@
-import React from "react";
 import Heading from "../Heading/Heading";
 import { FaHeart, FaLeaf, FaSeedling } from "react-icons/fa";
 import { FaShield } from "react-icons/fa6";
