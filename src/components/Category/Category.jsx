@@ -20,7 +20,7 @@ const Category = () => {
           <h3 className="text-zinc-800 text-3xl font-bold">{cards.title}</h3>
           <p className="text-zinc-600 mt-3 mb-9">{cards.description}</p>
           <a
-            href="#"
+            href="/fruits"
             className="bg-gradient-to-b from-green-700 to-green-800 px-8 py-3 text-white px-8 py-3 rounded-lg md:text-lg text-md hover:scale-105 hover:to-green-600 transition-all duration-300 cursor-pointer"
           >
             See All
