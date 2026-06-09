@@ -15,6 +15,10 @@ const App = () => {
       path: "/dairy",
       element: <Dairy />,
     },
+    {
+      path: "/seafood",
+      element: <SeaFood />,
+    },
   ]);
   return <RouterProvider router={router} />;
 };
