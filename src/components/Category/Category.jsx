@@ -3,7 +3,7 @@ import Heading from "../Heading/Heading";
 import fruitsCat from "../../assets/fruits-and-veggies.png";
 import Dairyat from "../../assets/dairy-and-eggs.png";
 import SeaFoodCat from "../../assets/meat-and-seafood.png";
-import Button from "../Button/Button";
+import { Link } from "react-router-dom";
 
 const Category = () => {
   const renderCards = category.map((cards) => {
@@ -19,12 +19,9 @@ const Category = () => {
         <div className="bg-zinc-100 pt-17 p-8 rounded -xl">
           <h3 className="text-zinc-800 text-3xl font-bold">{cards.title}</h3>
           <p className="text-zinc-600 mt-3 mb-9">{cards.description}</p>
-          <a
-            href="/fruits"
-            className="bg-gradient-to-b from-green-700 to-green-800 px-8 py-3 text-white px-8 py-3 rounded-lg md:text-lg text-md hover:scale-105 hover:to-green-600 transition-all duration-300 cursor-pointer"
-          >
+          <Link to="/fruits" className="bg-gradient-to-b from-green-700 to-green-800 px-8 py-3 text-white px-8 py-3 rounded-lg md:text-lg text-md hover:scale-105 hover:to-green-600 transition-all duration-300 cursor-pointer">
             See All
-          </a>
+          </Link>
         </div>
       </div>
     );

@@ -7,6 +7,10 @@ const App = () => {
       path: "/",
       element: <Home />,
     },
+    {
+      path: "/fruits",
+      element: <h1>Fruits</h1>,
+    },
   ]);
   return <RouterProvider router={router} />;
 };
