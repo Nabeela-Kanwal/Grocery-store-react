@@ -9,7 +9,11 @@ const App = () => {
     },
     {
       path: "/fruits",
-      element: <h1>Fruits</h1>,
+      element: <Fruits />,
+    },
+    {
+      path: "/dairy",
+      element: <Dairy />,
     },
   ]);
   return <RouterProvider router={router} />;
