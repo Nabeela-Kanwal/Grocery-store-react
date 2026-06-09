@@ -1,5 +1,5 @@
 import Home from "./components/Home/Home";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -8,11 +8,6 @@ const App = () => {
       element: <Home />,
     },
   ]);
-  return (
-    <div>
-      <Home />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 };
-
 export default App;
