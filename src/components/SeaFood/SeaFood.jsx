@@ -7,3 +7,4 @@ const SeaFood = () => {
 };
 
 export default SeaFood;
+ 
