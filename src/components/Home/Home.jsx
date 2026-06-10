@@ -1,4 +1,3 @@
-import Navbar from "../Navbar/Navbar";
 import Hero from "../Hero/Hero";
 import Category from "../Category/Category";
 import Values from "../Values/Values";
@@ -12,7 +11,6 @@ import Footer from "../Footer/Footer";
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <Hero />
       <Category />
       <Values />
