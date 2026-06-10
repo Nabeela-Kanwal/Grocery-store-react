@@ -46,7 +46,7 @@ const category = [
     description:
       "Fresh, organic produce sourced daily from local farms. Explore a wide range of seasonal fruits and crisp vegetables.",
     image: fruitsCat,
-    path: "fruits",
+    path: "/fruits",
   },
 
   {
@@ -55,7 +55,7 @@ const category = [
     description:
       "Wholesome dairy products and free-range eggs. From creamy milk and yogurt to artisanal cheeses.",
     image: Dairyat,
-    path: "dairy",
+    path: "/dairy",
   },
 
   {
@@ -64,6 +64,6 @@ const category = [
     description:
       "High-quality, responsibly sourced meat and seafood. Choose from fresh cuts, marinated options, and more.",
     image: SeaFoodCat,
-    path: "seafood"
+    path: "/seafood"
   },
 ];
