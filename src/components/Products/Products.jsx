@@ -2,7 +2,7 @@ import { useState } from "react";
 import Heading from "../Heading/Heading";
 import ProductList from "../ProductList/ProductList";
 import Cards from "../Cards/Cards";
-import Button from "../Button/Button";
+import { Link } from "react-router-dom";
 
 const Products = () => {
   const categories = ["All", "Fruits", "Vegetables", "Dairy", "Sea Food"];
@@ -44,7 +44,12 @@ const Products = () => {
       </div>
 
       <div className="flex justify-center">
-        <Button content="View All" />
+         <Link
+            to="/allproducts"
+            className="bg-gradient-to-b from-green-700 to-green-800 px-8 py-3 text-white rounded-lg md:text-lg text-md hover:scale-105 hover:to-green-600 transition-all duration-300 cursor-pointer"
+          >
+            See All
+          </Link>
       </div>
     </section>
   );
