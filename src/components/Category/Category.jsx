@@ -15,12 +15,12 @@ const Category = () => {
             className="absolute bottom-0 left-0 w-full h-full object-cover"
           />
         </div>
-        <div className="bg-zinc-100 pt-17 p-8 rounded -xl">
+        <div className="bg-zinc-100 pt-17 p-8 rounded-xl">
           <h3 className="text-zinc-800 text-3xl font-bold">{cards.title}</h3>
           <p className="text-zinc-600 mt-3 mb-9">{cards.description}</p>
           <Link
-            to=""
-            className="bg-gradient-to-b from-green-700 to-green-800 px-8 py-3 text-white px-8 py-3 rounded-lg md:text-lg text-md hover:scale-105 hover:to-green-600 transition-all duration-300 cursor-pointer"
+            to={cards.path}
+            className="bg-gradient-to-b from-green-700 to-green-800 px-8 py-3 text-white rounded-lg md:text-lg text-md hover:scale-105 hover:to-green-600 transition-all duration-300 cursor-pointer"
           >
             See All
           </Link>
@@ -60,10 +60,10 @@ const category = [
 
   {
     id: 3,
-    title: "Meet & SeaFood",
+    title: "Meat & SeaFood",
     description:
       "High-quality, responsibly sourced meat and seafood. Choose from fresh cuts, marinated options, and more.",
     image: SeaFoodCat,
-    path: "/seafood"
+    path: "/seafood",
   },
 ];
