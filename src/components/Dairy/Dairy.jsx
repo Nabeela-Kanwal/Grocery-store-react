@@ -1,9 +1,7 @@
+import CategoryPage from "../CategoryPage/CategoryPage";
+
 const Dairy = () => {
-  return (
-    <div>
-      <h1>Dairy</h1>
-    </div>
-  );
+  return <CategoryPage categories="Dairy" />;
 };
 
 export default Dairy;

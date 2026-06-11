@@ -1,11 +1,7 @@
 import CategoryPage from "../CategoryPage/CategoryPage";
 
 const SeaFood = () => {
-  return (
-    <div>
-      <CategoryPage />
-    </div>
-  );
+  return <CategoryPage categories={["Meat", "SeaFood"]} />;
 };
 
 export default SeaFood;
