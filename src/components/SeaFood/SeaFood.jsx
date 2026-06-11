@@ -1,9 +1,9 @@
-import Banner from "../Banner/Banner";
+import Banner from "../CatgoryPage/CatgoryPage";
 
 const SeaFood = () => {
   return (
     <div>
-      <Banner />
+      <CategoryPage />
     </div>
   );
 };
