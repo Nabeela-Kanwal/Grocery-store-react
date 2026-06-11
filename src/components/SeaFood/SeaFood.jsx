@@ -1,10 +1,11 @@
+import Banner from "../Banner/Banner";
+
 const SeaFood = () => {
   return (
     <div>
-      <h1>SeaFood</h1>
+      <Banner />
     </div>
   );
 };
 
 export default SeaFood;
- 
