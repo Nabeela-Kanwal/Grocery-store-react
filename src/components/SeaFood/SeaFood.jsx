@@ -1,4 +1,4 @@
-import Banner from "../CatgoryPage/CatgoryPage";
+import CategoryPage from "../CategoryPage/CategoryPage";
 
 const SeaFood = () => {
   return (
