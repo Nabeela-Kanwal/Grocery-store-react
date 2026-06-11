@@ -25,12 +25,12 @@ const Navbar = () => {
       className={`bg-white fixed top-0 right-0 left-0 z-50 ${isScrolled ? "drop-shadow-[0_4px_25px_rgba(0,0,0,0.0.1)]" : ""}`}
     >
       <nav className="max-w-[1400px] mx-auto px-10 md:h-[14vh] h-[12vh] flex justify-between items-center">
-        <a href="#" className="text-3xl font-bold">
+        <a href="/" className="text-3xl font-bold">
           Gr<span className="text-green-800">O</span>cery
         </a>
         <ul className="md:flex flex items-center gap-x-15 hidden">
           <li>
-            <a href="" className="font-semibold tracking-wider text-green-800">
+            <a href="/" className="font-semibold tracking-wider text-green-800">
               Home
             </a>
           </li>
