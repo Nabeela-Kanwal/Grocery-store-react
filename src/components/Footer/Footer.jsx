@@ -21,12 +21,12 @@ const Footer = () => {
             <h5 className="text-zinc-800 text-2xl font-bold">Company</h5>
           </li>
           <li className="mt-6">
-            <a href="" className="text-zinc-800 hover:text-green-800">
+            <a href="/About" className="text-zinc-800 hover:text-green-800">
               About
             </a>
           </li>
           <li className="mt-6">
-            <a href="" className="text-zinc-800 hover:text-green-800">
+            <a href="/faqs" className="text-zinc-800 hover:text-green-800">
               FAQs
             </a>
           </li>
@@ -37,17 +37,17 @@ const Footer = () => {
             <h5 className="text-zinc-800 text-2xl font-bold">Support</h5>
           </li>
           <li className="mt-6">
-            <a href="" className="text-zinc-800 hover:text-green-800">
+            <a href="/support-center" className="text-zinc-800 hover:text-green-800">
               Support Center
             </a>
           </li>
           <li className="mt-6">
-            <a href="" className="text-zinc-800 hover:text-green-800">
+            <a href="/feedback" className="text-zinc-800 hover:text-green-800">
               Feedback
             </a>
           </li>
           <li className="mt-6">
-            <a href="" className="text-zinc-800 hover:text-green-800">
+            <a href="/contactus" className="text-zinc-800 hover:text-green-800">
               Contact Us
             </a>
           </li>
