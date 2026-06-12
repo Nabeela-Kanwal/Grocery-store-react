@@ -5,6 +5,7 @@ import SeaFood from "./components/SeaFood/SeaFood";
 import AllProducts from "./components/AllProducts/AllProducts";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
+import About from "./components/About/About";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -32,6 +33,10 @@ const App = () => {
           path: "allproducts",
           element: <AllProducts />,
         },
+        {
+          path: "about",
+          element: <About />
+        }
       ],
     },
   ]);
