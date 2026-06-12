@@ -6,6 +6,7 @@ import AllProducts from "./components/AllProducts/AllProducts";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import About from "./components/About/About";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -36,6 +37,10 @@ const App = () => {
         {
           path: "about",
           element: <About />
+        },
+        {
+          path: "contactus",
+          element: <ContactUs />
         }
       ],
     },

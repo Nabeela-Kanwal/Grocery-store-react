@@ -55,7 +55,7 @@ const Navbar = () => {
 
           <li>
             <a
-              href=""
+              href="contactus"
               className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
             >
               Contact Us
