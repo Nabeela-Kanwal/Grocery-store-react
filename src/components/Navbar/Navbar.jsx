@@ -77,11 +77,11 @@ const Navbar = () => {
             </button>
           </div>
 
-          <a href="#" className="text-zinc-800 text-2xl">
+          <a href="/wishlist" className="text-zinc-800 text-2xl">
             <GoHeartFill />
           </a>
 
-          <a href="#" className="text-zinc-800 text-2xl">
+          <a href="/cart" className="text-zinc-800 text-2xl">
             <HiMiniShoppingBag />
           </a>
 
