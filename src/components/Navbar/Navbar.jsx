@@ -46,7 +46,7 @@ const Navbar = () => {
 
           <li>
             <a
-              href=""
+              href="/process"
               className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
             >
               Process

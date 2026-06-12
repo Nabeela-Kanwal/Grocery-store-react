@@ -8,6 +8,7 @@ import Layout from "./components/Layout/Layout";
 import About from "./components/About/About";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Faqs from "./components/Faqs/Faqs";
+import Process from "./components/Process/Process";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -46,6 +47,10 @@ const App = () => {
         {
           path: "faqs",
           element: <Faqs />,
+        },
+        {
+          path: "process",
+          element: <Process />,
         },
       ],
     },
