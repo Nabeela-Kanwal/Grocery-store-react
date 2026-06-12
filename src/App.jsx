@@ -10,6 +10,7 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import Faqs from "./components/Faqs/Faqs";
 import Process from "./components/Process/Process";
 import Wishlist from "./components/Wishlist/Wishlist";
+import Cart from "./components/Cart/Cart";
 
 const App = () => {
   const router = createBrowserRouter([
