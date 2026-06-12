@@ -9,6 +9,7 @@ import About from "./components/About/About";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Faqs from "./components/Faqs/Faqs";
 import Process from "./components/Process/Process";
+import Wishlist from "./components/Wishlist/Wishlist";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -51,6 +52,10 @@ const App = () => {
         {
           path: "process",
           element: <Process />,
+        },
+        {
+          path: "wishlist",
+          element: <Wishlist />,
         },
       ],
     },
