@@ -3,7 +3,7 @@ import Banner from "../Banner/Banner";
 import Cards from "../Cards/Cards";
 import ProductList from "../ProductList/ProductList";
 
-const CategoryPage = ({ categories }) => {
+const CategoryPage = ({ title, categories }) => {
   const selectedCategories = Array.isArray(categories) ? categories : [categories];
   const filteredProducts = ProductList.filter((product) =>
     selectedCategories.includes(product.category),
@@ -15,7 +15,7 @@ const CategoryPage = ({ categories }) => {
 
   return (
     <div>
-      <Banner />
+      <Banner title={title}/>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-9 py-20 max-w-[1400px] mx-auto px-10">
         {renderProduct}
       </div>
