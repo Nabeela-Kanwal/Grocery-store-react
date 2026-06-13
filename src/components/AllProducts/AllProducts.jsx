@@ -10,7 +10,7 @@ const AllProducts = () => {
 
   return (
     <section>
-      <Banner />
+      <Banner title="All Products" />
       <div className="max-w-[1400px] mx-auto px-10 py-20">
         <Heading highlight="All" heading="Products" />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">

@@ -5,6 +5,7 @@ import ProductList from "../ProductList/ProductList";
 
 const CategoryPage = ({ title, categories }) => {
   const selectedCategories = Array.isArray(categories) ? categories : [categories];
+  const bannerTitle = title || selectedCategories.join(" & ");
   const filteredProducts = ProductList.filter((product) =>
     selectedCategories.includes(product.category),
   );
@@ -15,7 +16,7 @@ const CategoryPage = ({ title, categories }) => {
 
   return (
     <div>
-      <Banner title={title}/>
+      <Banner title={bannerTitle}/>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-9 py-20 max-w-[1400px] mx-auto px-10">
         {renderProduct}
       </div>
