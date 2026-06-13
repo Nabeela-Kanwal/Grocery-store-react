@@ -4,7 +4,9 @@ import Cards from "../Cards/Cards";
 import ProductList from "../ProductList/ProductList";
 
 const CategoryPage = ({ title, categories, bgImage }) => {
-  const selectedCategories = Array.isArray(categories) ? categories : [categories];
+  const selectedCategories = Array.isArray(categories)
+    ? categories
+    : [categories];
   const bannerTitle = title || selectedCategories.join(" & ");
   const filteredProducts = ProductList.filter((product) =>
     selectedCategories.includes(product.category),
