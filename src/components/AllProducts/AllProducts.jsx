@@ -2,6 +2,7 @@ import Banner from "../Banner/Banner";
 import Cards from "../Cards/Cards";
 import Heading from "../Heading/Heading";
 import ProductList from "../ProductList/ProductList";
+import bgallProduct from "../../assets/all-banner.jpg";
 
 const AllProducts = () => {
   const renderCards = ProductList.map((product) => {
@@ -10,7 +11,7 @@ const AllProducts = () => {
 
   return (
     <section>
-      <Banner title="All Products" />
+      <Banner title="All Products" bgImage={bgallProduct} />
       <div className="max-w-[1400px] mx-auto px-10 py-20">
         <Heading highlight="All" heading="Products" />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
