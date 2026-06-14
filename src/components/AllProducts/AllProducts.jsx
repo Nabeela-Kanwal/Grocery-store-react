@@ -8,7 +8,7 @@ const AllProducts = () => {
   const renderCards = ProductList.map((product) => {
     return <Cards key={product.id} product={product} />;
   });
-
+ 
   return (
     <section>
       <Banner title="All Products" bgImage={bgallProduct} />
