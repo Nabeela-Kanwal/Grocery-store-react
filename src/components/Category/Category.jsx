@@ -3,6 +3,7 @@ import fruitsCat from "../../assets/fruits-and-veggies.png";
 import Dairyat from "../../assets/dairy-and-eggs.png";
 import SeaFoodCat from "../../assets/meat-and-seafood.png";
 import { Link } from "react-router-dom";
+import { FiArrowRight } from "react-icons/fi";
 
 const Category = () => {
   const renderCards = category.map((cards) => {
@@ -20,9 +21,10 @@ const Category = () => {
           <p className="text-zinc-600 mt-3 mb-9">{cards.description}</p>
           <Link
             to={cards.path}
-            className="bg-gradient-to-b from-green-700 to-green-800 px-8 py-3 text-white rounded-lg md:text-lg text-md hover:scale-105 hover:to-green-600 transition-all duration-300 cursor-pointer"
+            className="inline-flex items-center justify-center gap-3 bg-gradient-to-b from-green-700 to-green-800 px-8 py-3 text-white rounded-lg md:text-lg text-md hover:scale-105 hover:to-green-600 transition-all duration-300 cursor-pointer"
           >
-            See All
+            <span>See All</span>
+            <FiArrowRight className="text-xl" />
           </Link>
         </div>
       </div>

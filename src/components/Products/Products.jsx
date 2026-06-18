@@ -3,6 +3,7 @@ import Heading from "../Heading/Heading";
 import ProductList from "../ProductList/ProductList";
 import Cards from "../Cards/Cards";
 import { Link } from "react-router-dom";
+import { FiArrowRight } from "react-icons/fi";
 
 const Products = () => {
   const categories = ["All", "Fruits", "Vegetables", "Dairy", "Sea Food"];
@@ -46,9 +47,10 @@ const Products = () => {
       <div className="flex justify-center">
         <Link
           to="/allproducts"
-          className="bg-gradient-to-b from-green-700 to-green-800 px-8 py-3 text-white rounded-lg md:text-lg text-md hover:scale-105 hover:to-green-600 transition-all duration-300 cursor-pointer"
+          className="inline-flex items-center justify-center gap-3 bg-gradient-to-b from-green-700 to-green-800 px-8 py-3 text-white rounded-lg md:text-lg text-md hover:scale-105 hover:to-green-600 transition-all duration-300 cursor-pointer"
         >
-          See All
+          <span>See All</span>
+          <FiArrowRight className="text-xl" />
         </Link>
       </div>
     </section>
