@@ -100,14 +100,14 @@ const Navbar = () => {
           }`}
         >
           <li>
-            <a href="" className="font-semibold tracking-wider text-green-800">
+            <a href="/Home" className="font-semibold tracking-wider text-green-800">
               Home
             </a>
           </li>
 
           <li>
             <a
-              href=""
+              href="/About"
               className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
             >
               About Us
@@ -116,7 +116,7 @@ const Navbar = () => {
 
           <li>
             <a
-              href=""
+              href="/Process"
               className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
             >
               Process
@@ -125,7 +125,7 @@ const Navbar = () => {
 
           <li>
             <a
-              href=""
+              href="/ContactUs"
               className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
             >
               Contact Us
