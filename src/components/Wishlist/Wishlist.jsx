@@ -25,7 +25,10 @@ const Wishlist = () => {
       ? wishlistItems
       : wishlistItems.filter((item) => item.category === activeCategory);
 
-  const totalValue = wishlistItems.reduce((total, item) => total + item.price, 0);
+  const totalValue = wishlistItems.reduce(
+    (total, item) => total + item.price,
+    0,
+  );
 
   const removeItem = (id) => {
     setWishlistItems((items) => items.filter((item) => item.id !== id));
