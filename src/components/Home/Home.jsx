@@ -7,7 +7,6 @@ import Process from "../Process/Process";
 import Testimonial from "../Testimonials/Testimonials";
 import Footer from "../Footer/Footer";
 
-
 const Home = () => {
   return (
     <div>

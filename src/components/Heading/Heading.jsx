@@ -11,7 +11,7 @@ const underlineColors = {
 const Heading = ({ highlight, heading, accent = "green" }) => {
   const accentColor = accentColors[accent] || accentColors.green;
   const underlineColor = underlineColors[accent] || underlineColors.green;
-  
+
   return (
     <div className="w-fit mx-auto">
       <h2 className="text-zinc-800 md:text-5xl text-[2.5rem] font-bold">

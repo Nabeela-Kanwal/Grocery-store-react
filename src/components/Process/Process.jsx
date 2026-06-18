@@ -19,7 +19,9 @@ import FruitsVeggies from "../../assets/fruits-and-veggies.png";
 
 const Process = () => {
   const { pathname } = useLocation();
-  const [activeFreshnessId, setActiveFreshnessId] = useState(freshnessChecks[0].id);
+  const [activeFreshnessId, setActiveFreshnessId] = useState(
+    freshnessChecks[0].id,
+  );
   const isProcessPage = pathname.toLowerCase() === "/process";
 
   const activeFreshness = freshnessChecks.find(
@@ -247,7 +249,9 @@ const ProcessTimeline = ({ intro = "" }) => {
         <div className="w-fit mr-auto">
           <Heading highlight="Our" heading="Process" accent="green" />
         </div>
-        {intro && <p className="mt-6 max-w-[620px] text-lg text-zinc-600">{intro}</p>}
+        {intro && (
+          <p className="mt-6 max-w-[620px] text-lg text-zinc-600">{intro}</p>
+        )}
         <div className="relative mt-16 grid gap-14 md:mt-24 md:h-96 md:block">
           {renderSteps}
         </div>

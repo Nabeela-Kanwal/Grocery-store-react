@@ -11,12 +11,12 @@ import Grocery from "../../assets/grocery.png";
 const Cart = () => {
   const starterItems = useMemo(
     () =>
-      ProductList.filter((product) => [1, 2, 10, 16, 24].includes(product.id)).map(
-        (product, index) => ({
-          ...product,
-          quantity: index + 1,
-        }),
-      ),
+      ProductList.filter((product) =>
+        [1, 2, 10, 16, 24].includes(product.id),
+      ).map((product, index) => ({
+        ...product,
+        quantity: index + 1,
+      })),
     [],
   );
   const [cartItems, setCartItems] = useState(starterItems);

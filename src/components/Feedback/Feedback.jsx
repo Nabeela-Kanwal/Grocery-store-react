@@ -157,7 +157,9 @@ const Feedback = () => {
               </div>
 
               <label className="mt-5 block">
-                <span className="font-semibold text-zinc-800">Order Number</span>
+                <span className="font-semibold text-zinc-800">
+                  Order Number
+                </span>
                 <input
                   type="text"
                   name="orderNumber"

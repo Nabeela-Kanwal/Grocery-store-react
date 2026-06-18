@@ -100,7 +100,10 @@ const Navbar = () => {
           }`}
         >
           <li>
-            <a href="/Home" className="font-semibold tracking-wider text-green-800">
+            <a
+              href="/Home"
+              className="font-semibold tracking-wider text-green-800"
+            >
               Home
             </a>
           </li>
