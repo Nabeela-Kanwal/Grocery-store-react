@@ -11,6 +11,8 @@ import Faqs from "./components/Faqs/Faqs";
 import Process from "./components/Process/Process";
 import Wishlist from "./components/Wishlist/Wishlist";
 import Cart from "./components/Cart/Cart";
+import SupportCenter from "./components/SupportCenter/SupportCenter";
+import Feedback from "./components/Feedback/Feedback";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -61,6 +63,14 @@ const App = () => {
         {
           path: "cart",
           element: <Cart />,
+        },
+        {
+          path: "support-center",
+          element: <SupportCenter />,
+        },
+        {
+          path: "feedback",
+          element: <Feedback />,
         },
       ],
     },
