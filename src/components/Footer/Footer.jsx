@@ -13,7 +13,7 @@ const Footer = () => {
             all fresh and healthy.
           </p>
           <p className="mt-6 text-zinc-800">
-            2025 &copy; Grocery. All rights reserved.
+            2026 &copy; Grocery. All rights reserved.
           </p>
         </div>
 
