@@ -3,6 +3,7 @@ import { GoHeartFill } from "react-icons/go";
 import { HiMiniShoppingBag } from "react-icons/hi2";
 import { IoSearchSharp } from "react-icons/io5";
 import { TbMenu2, TbMenu3 } from "react-icons/tb";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -25,41 +26,44 @@ const Navbar = () => {
       className={`bg-white fixed top-0 right-0 left-0 z-50 ${isScrolled ? "drop-shadow-[0_4px_25px_rgba(0,0,0,0.0.1)]" : ""}`}
     >
       <nav className="max-w-[1400px] mx-auto px-10 md:h-[14vh] h-[12vh] flex justify-between items-center">
-        <a href="/" className="text-3xl font-bold">
+        <Link to="/" className="text-3xl font-bold">
           Gr<span className="text-green-800">O</span>cery
-        </a>
+        </Link>
         <ul className="md:flex flex items-center gap-x-15 hidden">
           <li>
-            <a href="/" className="font-semibold tracking-wider text-green-800">
+            <NavLink
+              to="/"
+              className="font-semibold tracking-wider text-green-800"
+            >
               Home
-            </a>
+            </NavLink>
           </li>
 
           <li>
-            <a
-              href="/About"
+            <NavLink
+              to="/about"
               className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
             >
               About Us
-            </a>
+            </NavLink>
           </li>
 
           <li>
-            <a
-              href="/process"
+            <NavLink
+              to="/process"
               className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
             >
               Process
-            </a>
+            </NavLink>
           </li>
 
           <li>
-            <a
-              href="contactus"
+            <NavLink
+              to="/contactus"
               className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
             >
               Contact Us
-            </a>
+            </NavLink>
           </li>
         </ul>
         <div className="flex items-center gap-x-5">
@@ -77,13 +81,13 @@ const Navbar = () => {
             </button>
           </div>
 
-          <a href="/wishlist" className="text-zinc-800 text-2xl">
+          <Link to="/wishlist" className="text-zinc-800 text-2xl">
             <GoHeartFill />
-          </a>
+          </Link>
 
-          <a href="/cart" className="text-zinc-800 text-2xl">
+          <Link to="/cart" className="text-zinc-800 text-2xl">
             <HiMiniShoppingBag />
-          </a>
+          </Link>
 
           <button
             type="button"
@@ -100,39 +104,39 @@ const Navbar = () => {
           }`}
         >
           <li>
-            <a
-              href="/Home"
+            <NavLink
+              to="/"
               className="font-semibold tracking-wider text-green-800"
             >
               Home
-            </a>
+            </NavLink>
           </li>
 
           <li>
-            <a
-              href="/About"
+            <NavLink
+              to="/about"
               className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
             >
               About Us
-            </a>
+            </NavLink>
           </li>
 
           <li>
-            <a
-              href="/Process"
+            <NavLink
+              to="/process"
               className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
             >
               Process
-            </a>
+            </NavLink>
           </li>
 
           <li>
-            <a
-              href="/ContactUs"
+            <NavLink
+              to="/contactus"
               className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
             >
               Contact Us
-            </a>
+            </NavLink>
           </li>
           <li className="flex items-center p-1 border-2 border-green-800 rounded-full md:hidden">
             <input
