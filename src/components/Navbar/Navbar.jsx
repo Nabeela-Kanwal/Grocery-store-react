@@ -59,19 +59,19 @@ const Navbar = () => {
 
           <li>
             <NavLink
-              to="/contactus"
+              to="/shops"
               className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
             >
-              Contact Us
+              Shops
             </NavLink>
           </li>
 
           <li>
             <NavLink
-              to="/shops"
+              to="/contactus"
               className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
             >
-              Shops
+              Contact Us
             </NavLink>
           </li>
         </ul>
