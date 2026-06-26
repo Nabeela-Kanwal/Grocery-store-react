@@ -13,6 +13,7 @@ import Wishlist from "./components/Wishlist/Wishlist";
 import Cart from "./components/Cart/Cart";
 import SupportCenter from "./components/SupportCenter/SupportCenter";
 import Feedback from "./components/Feedback/Feedback";
+import Shops from "./components/Shops/Shops";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -71,6 +72,11 @@ const App = () => {
         {
           path: "feedback",
           element: <Feedback />,
+        },
+
+        {
+          path: "shops",
+          element: <Shops />,
         },
       ],
     },

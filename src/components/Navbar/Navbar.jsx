@@ -65,6 +65,15 @@ const Navbar = () => {
               Contact Us
             </NavLink>
           </li>
+
+          <li>
+            <NavLink
+              to="/shops"
+              className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
+            >
+              Shops
+            </NavLink>
+          </li>
         </ul>
         <div className="flex items-center gap-x-5">
           <div className="md:flex items-center p-1 border-2 border-green-800 rounded-full hidden">
