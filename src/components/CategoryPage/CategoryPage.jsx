@@ -1,4 +1,3 @@
-import React from "react";
 import Banner from "../Banner/Banner";
 import Cards from "../Cards/Cards";
 import ProductList from "../ProductList/ProductList";

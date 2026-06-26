@@ -46,6 +46,10 @@ const App = () => {
           element: <About />,
         },
         {
+          path: "shops",
+          element: <Shops />,
+        },
+        {
           path: "contactus",
           element: <ContactUs />,
         },
@@ -72,11 +76,6 @@ const App = () => {
         {
           path: "feedback",
           element: <Feedback />,
-        },
-
-        {
-          path: "shops",
-          element: <Shops />,
         },
       ],
     },

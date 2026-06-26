@@ -141,12 +141,22 @@ const Navbar = () => {
 
           <li>
             <NavLink
+              to="/shops"
+              className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
+            >
+              Shops
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
               to="/contactus"
               className="font-semibold tracking-wider text-zinc-800 hover:text-green-800"
             >
               Contact Us
             </NavLink>
           </li>
+
           <li className="flex items-center p-1 border-2 border-green-800 rounded-full md:hidden">
             <input
               type="text"

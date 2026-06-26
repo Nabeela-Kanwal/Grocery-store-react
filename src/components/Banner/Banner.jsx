@@ -1,5 +1,3 @@
-import React from "react";
-
 const Banner = ({ title = "Products", bgImage }) => {
   const bannerStyle = bgImage
     ? { backgroundImage: `url(${bgImage})`, backgroundSize: "cover" }
